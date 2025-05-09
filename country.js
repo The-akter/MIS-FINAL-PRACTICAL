@@ -55,7 +55,7 @@ function displayResults(country, weatherData) {
         <p>Population: ${country.population.toLocaleString()}</p>
         <p>Region: ${country.region}</p>
         <p>Currency: ${currencyInfo}</p>
-        <p>Weather: ${weatherData.main.temp}°C, ${weatherDescription}</p>
+        
     `;
 
     resultsContainer.appendChild(countryCard);
